@@ -45,7 +45,7 @@ class DiscordClient
 			details: "In the Menus",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "VS Joalor64"
+			largeImageText: "Friday Night Funkin': Bambi Engine"
 		});
 	}
 
