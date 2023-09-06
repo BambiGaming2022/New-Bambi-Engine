@@ -28,7 +28,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
-	public static var Modver:String = '1.0.5'; //This is used for Discord RPC
+	public static var Modver:String = '1.0.0'; //This is used for Discord RPC
 	public static var EngineVer:String = '0.1.0';
 	public static var psychEngineVersion:String = '0.5.2h';
 	public static var curSelected:Int = 0;
@@ -144,7 +144,7 @@ class MainMenuState extends MusicBeatState
 
 		FlxG.camera.follow(camFollowPos, null, 1);
 
-        	var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, 'VS Joalor64 v$Modver', 12);
+        	var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, 'Bambi Engine v$Modver', 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
