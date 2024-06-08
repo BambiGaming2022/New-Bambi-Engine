@@ -4,7 +4,7 @@
 	
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="Bambi Engine" file="BambiEngine" packageName="com.watafac.lmao" package="com.watafac.lmao" main="Main" version="0.2.7" company="Peppino" />
+	<app title="VS Stev Returned" file="VSSTEV" packageName="com.watafac.lmao" package="com.watafac.lmao" main="Main" version="0.2.7" company="Hi" />
 
 	<app preloader="flixel.system.FlxPreloader" />
 	<set name="SWF_VERSION" value="11.8" />
